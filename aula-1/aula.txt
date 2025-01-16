@@ -1,0 +1,213 @@
+HTML
+
+- Linguagem base para sites de internet
+
+Hyper Text Markup Language (Linguagem de marcação de Hipertexto)
+
+É o bloco de construção mais básico da web. 
+Define o significado e a estrutura do conteúdo web.
+Responsável por textos, imagens, etc.
+
+- Arquivo .htm ou .html
+
+"Hipertexto" refere-se aos links que conectam páginas, ou seja, de um documento podemos ir a outro documento, outra página.
+
+"Linguagem de marcação" é por que o html trabalha com tags [rótulos]
+
+<> </>  [Elemento html]
+
+Exemplo:
+
+<title> Meu título </title>
+
+[abertura] Conteúdo da tag title [fechamento]
+
+Atualmente existem cerca de 140 tags HTML.
+As tags indicam para o navegador o tipo de conteúdo que ele deve mostrar.
+
+-------------------------------------------------------------------------
+
+Tente adivinhar para que servem estas tags:
+
+<img>           imagem
+
+<video>         vídeo
+
+<audio>         áudio
+
+Indicam ao navegador que naquele trecho terá uma imagem, vídeo, ...
+
+-------------------------------------------------------------------------
+
+Outras tantas tags vem de abreviações em inglês, por exemplo:
+
+<ul>            unodered list   [Lista desordenada]
+
+<li>            list item       [Ítem da lista]
+
+Servem para fazer uma lista, exemplo:
+
+<ul>
+    <li>Arroz</li>
+    <li>Feijão</li>
+    <li>Macarrão</li>
+</ul>
+
+-------------------------------------------------------------------------
+
+Essa foi uma visão geral para demonstrar a importância de conhecer as principais tags html.
+Estas serão usadas para criar páginas estáticas cada vez mais elaboradas para que o navegador possa interpretar exatamente o que queremos.
+
+-------------------------------------------------------------------------
+
+Estrutura básica HTML
+
+* Declarar para o navegador que o documento é do tipo HTML
+<!DOCTYPE html>
+
+* Tag base para conteúdo html
+<html>
+
+* Criar cabeçalho que não será mostrado pelo navegador
+<head>
+
+* Criar título da página que será exibido na aba superior
+<title>Meu primeiro site</title>
+
+* Fechar cabeçalho
+</head>
+
+* Corpo do site que será exibido pelo navegador
+<body>
+
+* Título 1
+<h1> Meu primeiro site! </h1>
+
+* Paragráfo
+<p> Meu primeiro parágrafo </p>
+
+* Fechar o corpo
+</body>
+
+* Fechar documento
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu primeiro site</title>
+    </head>
+    <body>
+        <h1>Meu primeiro site!</h1>
+        <p>Meu primeiro parágrafo</p>
+    </body>
+</html>
+
+-------------------------------------------------------------------------
+
+Meta tags, cabeçalho e parágrafo
+
+* Atributo "lang" da tag html
+Informa ao navegador o idioma do site.
+
+<html lang="en">
+<html lang="pt-br">
+
+
+* Meta tags são tags do tipo meta que ficam dentro do head.
+São informações dos dados (meta dados) lidos apenas pelo navegador.
+Servem para:
+    - Mecanismos de busca saberem palavras chaves do site
+    - Informar autor
+    - Tipo de codificação de caracteres utilizada
+
+Principais meta tags:
+    - charset="UTF-8"       [Indica ao navegador para utilizar essa codificação baseada na tabela Unicode]
+    - <meta http-equiv="X-UA-Compatible" content="IE=edge"> [Para compatibilidade com Internet Explorer]
+    - name="viewport"       [Para tela adaptar-se ao device em uso Pc/Mobile numa escala de 1.0] [viewport é a área visível da página]
+    - <meta name="description" content="Primeiro site!">    [Descrição com objetivo do site que irá aparecer ao enviar o link do mesmo]
+    - <meta name="keywords" content="Viagens, praias, gastronomia"> [Palavras chaves para mecanismos de busca]
+    - <meta name="author" content="roger437unix">   [Para informar o autor do site]
+
+-------------------------------------------------------------------------
+
+* Tags iniciais
+
+- Tags de cabeçalho (titulos) [h - header]
+
+<h1> ... <h6>
+
+Serve para mostrar para o navegador a importância do texto e a ordem de relevância, sendo <h1> mais relevante.
+Nunca use títulos para simplesmente aumentar o tamanho da letra.
+Sempre no site apenas uma tag <h1> para não confundir os mecanismos de busca.
+[SEO - Search Engine Optimization (Otimização para motores de busca)]
+[Capacidade da IA do Google ler um site e colocar como resultado das pesquisas de busca]
+
+Exemplo:
+
+<body>
+    <!---------------
+    <h1>Título 1</h1>
+    <h2>Título 2</h2>
+    <h3>Título 3</h3>
+    <h4>Título 4</h4>
+    <h5>Título 5</h5>
+    <h6>Título 6</h6>
+    ---------------->
+    
+    <!-- Título da página -->
+    <h1>Aula de HTML</h1>
+
+    <p>Nesta aula vamos aprender um pouco de html.</p>
+
+    <!-- Sub-titulo da página -->
+    <h2>O que são tags?</h2>
+
+    p>lorem
+
+    <h3>H1 até H6 - tags de cabeçalho (header)</h3>
+
+    p>lorem
+
+</body>
+
+
+Obs.: Para gerar texto aleatório
+p>lorem <Enter>
+
+Obs.: Gerar três parágrafos aleatórios
+p*3>lorem <Enter>
+
+-------------------------------------------------------------------------
+
+* Enviar para git hub
+
+echo "Aula 1 - Introdução ao html e as tags html" > README.md
+
+git branch
+
+git checkout -b lima-aula-01
+
+git status
+
+git add .
+
+git commit -m "Aula 1 - Introdução ao html e as tags html"
+
+git push -u origin lima-aula-01
+
+git checkout main
+
+git merge lima-aula-01
+
+echo '![](https://lh7-us.googleusercontent.com/WqrPPrutd_FF1k1Y68R58IZlnP6Cw4IggfMCUxRKs15oYJuJagX3jnU7rYuW2p_TUWEccfQGGQaRSEezKTKfsz-Zd-1eQmxmU69icsJDRWiAXMsdeiIf21Z49S8JeUhr1Gqqm_TOYQlJIP7GaRNN5I8)' > README.md
+
+git add README.md
+
+git commit -m "Alterando README"
+
+git push origin main
+
+-------------------------------------------------------------------------
+

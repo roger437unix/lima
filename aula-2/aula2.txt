@@ -1,0 +1,154 @@
+HTML - Aula 2
+
+Formatação de texto
+
+----------------------------
+
+Resumo:
+
+<b></b>             Negrito
+<i></i>             Itálico
+<u></u>             Sublinhado
+
+<strong></strong>   Negrito para destacar trechos da linha
+<small></small>     Texto pequeno
+<del></del>         Texto riscado
+<mark></mark>       Texto em destaque
+<sup></sup>         Texto acima
+<sub></sub>         Texto abaixo
+
+<br>                Quebra de linha
+<hr>                Linha de divisão
+
+----------------------------
+
+<p>Texto normal.</p>
+
+----------------------------
+
+* Negrito [bold]
+
+<b></b>
+
+<p><b>Texto em negrito.</b></p>
+
+
+* Negrito para enfatizar texto, informar ao navegador maior grau de importância {Strong: forte}
+
+<strong></strong>
+
+<p>A tag Strong é usada para <strong>enfatizar</strong> texto.</p>
+
+----------------------------
+
+* Itálico
+
+<i></i>
+
+<p>Exemplo de texto em <i>itálico</i>.</p>
+
+----------------------------
+
+* Sublinhado [Underscore]
+
+<u></u>
+
+<p> Exemplo de texto <u>sublinhado</u>.</p>
+
+----------------------------
+
+* Criar uma linha para separar em seções {Horizontal rule: regra horizontal}
+
+<hr>
+
+----------------------------
+
+* Quebra de linha (break row)
+
+<br>
+
+----------------------------
+
+* Diminuir trecho de texto num parágrafo
+
+<small></small>
+
+<p>Exemplo da tag small => E-mail: <small>tux@gmail.com</small></p>
+
+----------------------------
+
+* Texto riscado [Para dar efeito de excluido]
+
+<p>Exemplo de texto riscado com tag del => <strong>Promoção:</strong> De <del>R$449.99</del> por R$219,99</p>
+
+----------------------------
+
+* Para representar expoente em potência e identificação da base em sistemas de numeração
+
+<sup></sup>
+
+<p><strong>Potência:</strong> 2<sup>12</sup> = 4096</p>
+
+<p><b>IDENTIDADE de EULER:</b> A Equação mais bonita da Matemática: e<sup> &pi; i</sup> + 1 = 0</p>
+<p>e = 2.71</p>
+<p>&pi; = 3.14</p>
+<p>i = &radic;-1</p>
+
+<p><b>Vou <del>presentear</del> <sup>vender</sup> um Iphone.</b></p>
+
+
+<sub></sub>
+
+<p><strong>Bases numéricas:</strong> 1111<sub>2</sub> = 15<sub>10</sub> = F<sub>16</sub></p>
+
+
+Obs.: Códigos e símbolos HTML 4
+https://fap.if.usp.br/~vvuolo/A%20-%20HOME%20-%20Fisica/simbolos.htm
+
+
+Obs.: Lista de Símbolos do HTML 5
+https://www.blogson.com.br/lista-de-simbolos-do-html-5/
+
+Exemplo:
+
+<p>&#9728; &#9729; &#9730; &#9731; &#9732;</p>
+
+----------------------------
+
+* Texto marcado, em destaque
+
+<mark></mark>
+
+<p>Matriculas somente no dia <mark>12/jan/2025</mark>
+
+-------------------------------------------------------------------------
+
+* Enviar para git hub
+
+echo "Aula 2 - Formatação de texto" > README.md
+
+git branch
+
+git checkout -b lima-aula-02
+
+git status
+
+git add .
+
+git commit -m "Aula 2 - Formatação de texto"
+
+git push -u origin lima-aula-02
+
+git checkout main
+
+git merge lima-aula-02
+
+echo '![](https://lh7-us.googleusercontent.com/WqrPPrutd_FF1k1Y68R58IZlnP6Cw4IggfMCUxRKs15oYJuJagX3jnU7rYuW2p_TUWEccfQGGQaRSEezKTKfsz-Zd-1eQmxmU69icsJDRWiAXMsdeiIf21Z49S8JeUhr1Gqqm_TOYQlJIP7GaRNN5I8)' > README.md
+
+git add README.md
+
+git commit -m "Alterando README"
+
+git push origin main
+
+-------------------------------------------------------------------------

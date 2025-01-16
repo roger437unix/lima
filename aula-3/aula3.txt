@@ -1,0 +1,54 @@
+HTML - Aula 3
+
+Abreviações e citações
+
+----------------------------
+
+<abbr title=""></abbr>          Para abreviações
+
+<address></address>             Para endereços físicos, e-mail ou site
+
+<cite></cite>                   Para livros, filmes, etc
+
+<q></q>                         Para citações curtas
+
+<blockquote></blockquote>       Para destacar previamente trecho de algum artigo
+
+<bdo dir="rtl"></bdo>           Inverter texto
+
+Obs.:
+
+lto     [Left to right]
+rtl     [right to left]
+
+-------------------------------------------------------------------------
+
+* Enviar para git hub
+
+echo "Aula 3 - Abreviações, citações e inversão de texto" > README.md
+
+git branch
+
+git checkout -b lima-aula-03
+
+git status
+
+git add .
+
+git commit -m "Aula 3 - Abreviações, citações e inversão de texto"
+
+git push -u origin lima-aula-03
+
+git checkout main
+
+git merge lima-aula-03
+
+echo '![](https://lh7-us.googleusercontent.com/WqrPPrutd_FF1k1Y68R58IZlnP6Cw4IggfMCUxRKs15oYJuJagX3jnU7rYuW2p_TUWEccfQGGQaRSEezKTKfsz-Zd-1eQmxmU69icsJDRWiAXMsdeiIf21Z49S8JeUhr1Gqqm_TOYQlJIP7GaRNN5I8)' > README.md
+
+git add README.md
+
+git commit -m "Alterando README"
+
+git push origin main
+
+-------------------------------------------------------------------------
